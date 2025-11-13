@@ -17,4 +17,4 @@ jobs:
         uses: tuxcare/vex-auto-triage@v1
         with:
           ecosystems: 'java'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
