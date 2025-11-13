@@ -14,7 +14,7 @@ jobs:
     
     steps:
       - name: Run TuxCare VEX Auto-Triage
-        uses: anaydev/tuxcare-workflow@v1
+        uses: anayden/tuxcare-workflow@v1
         with:
           ecosystems: 'java'
           github-token: ${{ secrets.GH_TOKEN }}
