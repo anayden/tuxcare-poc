@@ -17,4 +17,4 @@ jobs:
         uses: anayden/tuxcare-workflow@main
         with:
           ecosystems: 'java'
-          github-token: ${{ secrets.GH_TOKEN }}
+          gh-token: ${{ secrets.GITHUB_TOKEN }}
