@@ -18,3 +18,4 @@ jobs:
         with:
           ecosystems: 'java'
           token: ${{ secrets.GITHUB_TOKEN }}
+          verbosity: 'DEBUG'
