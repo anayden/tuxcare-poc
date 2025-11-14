@@ -16,3 +16,4 @@ jobs:
         with:
           ecosystems: 'java'
           token: ${{ secrets.PERSONAL_TOKEN }}
+          dry-run: 'true'
